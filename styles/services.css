@@ -4,7 +4,7 @@
 .container {
 }
 .services_title {
-  padding: 60px 50px;
+  padding: 50px 50px;
   font-size: 40px;
   color: #8eaf0c;
   line-height: 1.35;
@@ -25,13 +25,14 @@
     margin: 0 50px;
   }
 }
-@media (max-width: 700px) {
-}
 @media (max-width: 600px) {
   .wrapper_services ol {
     display: block;
   }
   .wrapper_services ol li {
-    padding-top: 30px;
+    padding-top: 15px;
+  }
+  .services_title {
+    padding: 60px 50px 20px 50px;
   }
 }
