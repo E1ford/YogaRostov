@@ -1,0 +1,165 @@
+.about_trening {
+  background: url('../image/background43.png');
+  padding: 30px 0;
+}
+
+.trening_title {
+  padding: 30px 0;
+  font-size: 40px;
+  color: #8eaf0c;
+  line-height: 1.35;
+  text-align: center;
+  font-weight: 600;
+}
+.trening_text {
+  padding: 0 50px;
+  font-size: 18px;
+  line-height: 28px;
+  letter-spacing: 1px;
+  text-align: center;
+}
+.trening_photo {
+  margin: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+/*  w 560px*/
+
+.left_photo {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+.left_photo_item {
+  position: relative;
+  margin: 10px 10px;
+  width: 500px;
+  height: 250px;
+}
+
+.right_photo {
+  display: flex;
+  flex-direction: column;
+}
+.right_photo_item {
+  position: relative;
+  margin: 10px 10px;
+  width: 500px;
+  height: 385px;
+}
+.text_in_photo {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 20px;
+  line-height: 1.55;
+  font-size: 16px;
+  font-weight: 300;
+  color: #fff;
+  word-break: break-word;
+}
+.text_in_photo h3 {
+  font-weight: 600;
+  line-height: 1.35;
+  font-size: 24px;
+  color: #fff;
+  word-break: break-word;
+}
+
+.trening1 {
+  background: url('../image/photo/trening/trening3.jpg') center center / cover no-repeat;
+}
+.trening2 {
+  background: url('../image/photo/trening/trening5.jpg') center center / cover no-repeat;
+}
+.trening3 {
+  background: url('../image/photo/trening/trening2.jpg') center center / cover no-repeat;
+}
+.trening4 {
+  background: url('../image/photo/trening/2.jpg') center center / cover no-repeat;
+}
+.trening5 {
+  background: url('../image/photo/trening/trening11.jpg') center center / cover no-repeat;
+}
+
+@media (max-width: 1100px) {
+  .left_photo_item {
+    width: 400px;
+    height: 162px;
+  }
+  .right_photo_item {
+    width: 400px;
+    height: 250px;
+  }
+}
+@media (max-width: 900px) {
+  .left_photo_item {
+    width: 300px;
+    height: 122px;
+  }
+  .right_photo_item {
+    width: 300px;
+    height: 192px;
+  }
+}
+@media (max-width: 700px) {
+  .trening_photo {
+    margin: 10px;
+  }
+}
+@media (max-width: 650px) {
+  .left_photo_item {
+    width: 500px;
+    height: 400px;
+    margin: 5px 5px;
+  }
+  .right_photo_item {
+    width: 500px;
+    height: 412px;
+    margin: 5px 5px;
+  }
+  .trening_photo {
+    margin: 10px;
+  }
+}
+@media (max-width: 550px) {
+  .left_photo_item {
+    width: 400px;
+    height: 300px;
+    margin: 10px 5px;
+  }
+  .right_photo_item {
+    width: 400px;
+    height: 312px;
+    margin: 10px 5px;
+  }
+  .trening_photo {
+    margin: 10px;
+  }
+}
+@media (max-width: 450px) {
+  .left_photo_item {
+    width: 300px;
+    height: 200px;
+    margin: 10px 5px;
+  }
+  .right_photo_item {
+    width: 300px;
+    height: 212px;
+    margin: 10px 5px;
+  }
+  .trening_photo {
+    margin: 10px;
+  }
+  .text_in_photo {
+    padding: 15px;
+    font-size: 16px;
+    font-weight: 300;
+  }
+  .text_in_photo h3 {
+    font-weight: 500;
+    font-size: 21px;
+  }
+}

@@ -1,0 +1,101 @@
+/* Собственно сам слайдер */
+.wrap_slider {
+  padding-top: 40px;
+  max-width: 550px;
+}
+.container {
+  max-width: 1140px;
+}
+
+.slider {
+  border-radius: 20px;
+  overflow: hidden;
+  max-width: 100%;
+  position: relative;
+  margin: auto;
+  max-height: 500px;
+  margin-bottom: 15px;
+  -webkit-box-shadow: 7px -2px 57px 0px rgba(0, 0, 0, 0.061);
+  -moz-box-shadow: 7px -2px 57px 0px rgba(0, 0, 0, 0.061);
+  box-shadow: 7px -2px 57px 0px rgba(0, 0, 0, 0.061);
+}
+/* Картинка мастабируется по отношению к родительскому элементу */
+.slider .item img {
+  object-fit: cover;
+  max-width: 100%;
+  border: none !important;
+  box-shadow: none !important;
+}
+/* Кнопки вперед и назад */
+.slider .prev,
+.slider .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  background-color: rgba(0, 0, 0, 0.109);
+}
+.slider .next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+/* При наведении на кнопки добавляем фон кнопок */
+.slider .prev:hover,
+.slider .next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Кружочки */
+.slider-dots {
+  text-align: center;
+}
+.slider-dots_item {
+  cursor: pointer;
+  height: 12px;
+  width: 12px;
+  margin: 0 2px;
+  background-color: #ddd;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+.active,
+.slider-dots_item:hover {
+  background-color: #aaa;
+}
+/* Анимация слайдов */
+.slider .item {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1s;
+  animation-name: fade;
+  animation-duration: 1s;
+}
+/* запрет на выделение */
+.dontSelection {
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Chrome/Safari/Opera */
+  -khtml-user-select: none; /* Konqueror */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none; /* Non-prefixed version, currently*/
+}
+
+@media (max-width: 1200px) {
+  /* При наведении на кнопки добавляем фон кнопок */
+  .slider .prev,
+  .slider .next {
+    padding: 14px;
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+  .wrap_slider {
+    padding-top: 80px;
+    max-width: 600px;
+  }
+}

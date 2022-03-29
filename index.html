@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Yoga в ростове на дону</title>
+    <meta name="description" content="йога и медитации в ростове на дону с Олегом Подкуйко" />
+    <meta name="keywords" content="йога, спорт, ростов на дону, медитации, олег подкуйко" />
+    <link rel="stylesheet" href="./styles/reset.css" />
+    <link rel="stylesheet" href="./styles/about_me.css" />
+    <link rel="stylesheet" href="./styles/services.css" />
+    <link rel="stylesheet" href="./styles/about_trening.css" />
+    <link rel="stylesheet" href="./styles/slider.css" />
+    <link rel="stylesheet" href="./styles/header.css" />
+    <link rel="stylesheet" href="./styles/time.css" />
+    <link rel="stylesheet" href="./styles/map.css" />
+    <link rel="stylesheet" href="./styles/footer.css" />
+
+    <!-- шрифты -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Literata:wght@300;400;600&display=swap"
+      rel="stylesheet"
+    />
+    <!-- ---- -->
+    <link rel="icon" type="favicon/ico" href="./image/favicon.ico" />
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div class="header_text dontSelection">
+          <img src="image/om-whate.png" alt="" />
+          <p>Yoga</p>
+          <p>в ростове на дону</p>
+        </div>
+      </div>
+    </header>
+    <section class="wrapper__about">
+      <div class="container">
+        <div class="about__me">
+          <div class="about__text">
+            <h2>Подкуйко Олег</h2>
+            <p class="about__subtitle">инструктор йоги</p>
+            <div class="border"></div>
+            <p>
+              Сертифицированный инструктор йоги(более 30 лет личной практики и 20 лет преподавания.
+            </p>
+            <p>
+              Направления: Йога Айенгара, 8 Частная Аштанга Йога, учитель медитации, консультирующий
+              психолог
+            </p>
+            <p>
+              Педагог 1 категории(12 лет работы в детском образовательном учреждении, автор
+              сертифицированной программы «Йога для детей в школе»,
+            </p>
+            <p>Массажист(тайский массаж + энергетический)</p>
+          </div>
+          <div class="wrap_slider">
+            <div class="slider">
+              <div class="item">
+                <img src="image/photo/my/5.jpg" alt="второй слайд" />
+              </div>
+              <div class="item">
+                <img src="image/photo/my/2.jpg" alt="третий слайд" />
+              </div>
+              <div class="item">
+                <img src="image/photo/my/10.jpg" alt="четвертый слайд" />
+              </div>
+              <div class="item">
+                <img src="image/photo/my/slider1.jpg" alt="четвертый слайд" />
+              </div>
+              <div class="item">
+                <img src="image/photo/my/slider100.jpg" alt="четвертый слайд" />
+              </div>
+              <div class="item">
+                <img src="image/photo/my/slider111.jpg" alt="четвертый слайд" />
+              </div>
+
+              <a class="prev" onclick="minusSlide()">&#10094;</a>
+              <a class="next" onclick="plusSlide()">&#10095;</a>
+            </div>
+
+            <div class="slider-dots">
+              <span class="slider-dots_item" onclick="currentSlide(1)"></span>
+              <span class="slider-dots_item" onclick="currentSlide(2)"></span>
+              <span class="slider-dots_item" onclick="currentSlide(3)"></span>
+              <span class="slider-dots_item" onclick="currentSlide(4)"></span>
+              <span class="slider-dots_item" onclick="currentSlide(5)"></span>
+              <span class="slider-dots_item" onclick="currentSlide(6)"></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="services">
+      <div class="container">
+        <div class="wrapper_services">
+          <h3 class="services_title">Мои услуги:</h3>
+          <ol>
+            <li>
+              Практика йоги для начинающих и продолжающих, йога терапия и проведение интенсивов,
+              групповые практики в йога центре и индивидуальные у вас дома , практика с семьями и
+              детьми.
+            </li>
+            <li>Обучение многоуровневой медитации c нуля</li>
+            <li>
+              Психологическая консультация:<br />
+              семейное консультирование, помощь в кризисных ситуациях, помощь в обретении смысла
+              жизни, устойчивого и гармоничного душевного состояния.
+            </li>
+          </ol>
+        </div>
+      </div>
+    </section>
+    <section class="about_trening">
+      <div class="container">
+        <div class="trening_wrapper">
+          <div class="trening_title">Что вас ждет на тренировке:</div>
+          <div class="trening_text">
+            Каждое занятие уникально и включает в себя различный комплекс упражнений, направленных
+            на развитие гибкости, выносливости, внутреннюю работу.
+          </div>
+          <div class="trening_photo">
+            <div class="left_photo">
+              <div class="left_photo_item trening1">
+                <div class="text_in_photo">
+                  <h3>Заряд настроения</h3>
+                  <p>Получите позитивное настроение на весь день</p>
+                </div>
+              </div>
+              <div class="left_photo_item trening2">
+                <div class="text_in_photo">
+                  <h3>Психологическая поддержка</h3>
+                  <p>Квалифицированный специалист</p>
+                  <p>поможет разобраться в проблемах</p>
+                </div>
+              </div>
+              <div class="left_photo_item trening3">
+                <div class="text_in_photo">
+                  <h3>Детская йога</h3>
+                  <p>Развитие дисциплины и самоконтроля у детей</p>
+                </div>
+              </div>
+            </div>
+            <div class="right_photo">
+              <div class="right_photo_item trening4">
+                <div class="text_in_photo">
+                  <h3>Медитация</h3>
+                  <p>Развитие спокойствия и осознанности</p>
+                </div>
+              </div>
+              <div class="right_photo_item trening5">
+                <div class="text_in_photo">
+                  <h3>Стретчинг</h3>
+                  <p>Развитие вашей гибкости</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="time">
+      <div class="container">
+        <div class="wrapper_time">
+          <div class="time_item">
+            <h3>Понедельник</h3>
+            <p class="time05">19:30-21:00</p>
+            <p class="time_text">онлайн медитация (zoom)</p>
+          </div>
+          <div class="time_item">
+            <h3>Вторник</h3>
+            <p class="time05">17:30-19:00</p>
+            <p class="time_text">класс «здоровая спина», для начинающих (центр «Во благо»)</p>
+            <p class="time05">19:00-20:30</p>
+            <p class="time_text">класс «для продолжающих»</p>
+          </div>
+          <div class="time_item">
+            <h3>Среда</h3>
+            <p class="time05">5:15-6:30</p>
+            <p class="time_text">онлайн «Утренняя йога»</p>
+          </div>
+          <div class="time_item">
+            <h3>Четверг</h3>
+            <p class="time05">16:30-17:30</p>
+            <p class="time_text">группа детской йоги (с 7 лет) (центр «Во благо»)</p>
+            <p class="time05">17:30-19:00</p>
+            <p class="time_text">класс «здоровая спина», для начинающих (центр « Во благо»)</p>
+            <p class="time05">19:00-20:30</p>
+            <p class="time_text">класс для «продолжающих»</p>
+          </div>
+          <div class="time_item">
+            <h3>Пятница</h3>
+            <p class="time05">5:15-6:30</p>
+            <p class="time_text">онлайн «Утренняя йога»</p>
+          </div>
+          <div class="time_item">
+            <h3>Суббота</h3>
+            <p class="time05">10:00-11:30</p>
+            <p class="time_text">«Утренняя йога» общий класс (центр «Во благо»)</p>
+            <p class="time05">11:30-13:00</p>
+            <p class="time_text">класс медитации ( обучение и продолжение практики)</p>
+          </div>
+          <div class="time_item">
+            <h3>Воскресение</h3>
+            <p class="time05">12:00-14:00</p>
+            <p class="time_text">
+              2х часовой интенсив йоги (максимальная растяжка, прогибы и балансы) центр «Во благо»
+            </p>
+            <p class="time05">14:00-15:00</p>
+            <p class="time_text">группа детской йоги</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="map">
+      <div class="container">
+        <h2 class="map_title dontSelection">Место проведения и способ связи:</h2>
+        <div class="map_content">
+          <div class="map_yandex">
+            <div class="some_map">
+              <iframe
+                src="https://yandex.ru/map-widget/v1/?um=constructor%3A8345adca6fe07b02bd3df17b530cb729f69dc96760e47ee16560ac7b45f4303b&amp;source=constructor"
+                width="600"
+                height="300"
+                frameborder="0"
+              ></iframe>
+            </div>
+            <div class="map_photo_wrapper">
+              <div class="map_photo"><img src="./image/zal.jpg" alt="" /></div>
+              <div class="map_photo"><img src="./image/zal_prev.jpg" alt="" /></div>
+            </div>
+          </div>
+          <div class="description">
+            <div class="schedule">
+              <div class="description_title">Место:</div>
+              <p>Центр развивающих практик «Во благо»</p>
+              <p>Ростов-на-дону, пер. Семашко, 79</p>
+              <p>(2й этаж)</p>
+            </div>
+            <div class="schedule">
+              <div class="description_title">Телефон центра для справок:</div>
+              <p><a href="tel:+1701588">270 15 88</a></p>
+            </div>
+            <div class="schedule">
+              <div class="description_title">Cпособ связи со мной:</div>
+              <p><a href="tel:+79085186915">8 (908) 518 69 15</a></p>
+              или нажмите на кнопку
+              <ul>
+                <li>
+                  <a target="_blank" href="https://vk.com/olegaum"
+                    ><img src="https://img.icons8.com/color/48/000000/vkontakte.png"
+                  /></a>
+                </li>
+                <li>
+                  <a target="_blank" class="tg" href="tg://resolve?domain=Oleg7Om"
+                    ><img src="https://img.icons8.com/dusk/64/000000/telegram-app.png"
+                  /></a>
+                </li>
+                <li>
+                  <a
+                    target="_blank"
+                    href="https://wa.me/89085186915?text=Здравствуйте, хочу записаться на тренировку"
+                    ><img src="https://img.icons8.com/color/48/000000/whatsapp--v1.png"
+                  /></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="container">
+        <div class="footer">
+          <div class="footer_img">
+            <img src="./image/om-whate.png" alt="" />
+          </div>
+          <div class="footer_text">
+            <p>
+              © Подкуйко Олег - Инструктор йоги <br />
+              в ростове-на-дону
+            </p>
+            <p>
+              Информация на данном сайте не является <br />
+              публичной офертой
+            </p>
+          </div>
+          <ul>
+            <li>
+              <a target="_blank" href="https://vk.com/olegaum"
+                ><img src="https://img.icons8.com/color/48/000000/vkontakte.png"
+              /></a>
+            </li>
+            <li>
+              <a target="_blank" href="tg://resolve?domain=Oleg7Om"
+                ><img src="https://img.icons8.com/dusk/64/000000/telegram-app.png"
+              /></a>
+            </li>
+            <li>
+              <a
+                target="_blank"
+                href="https://wa.me/89085186915?text=Здравствуйте, хочу записаться на тренировку"
+                ><img src="https://img.icons8.com/color/48/000000/whatsapp--v1.png"
+              /></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+    <script src="./script/index.js"></script>
+  </body>
+</html>
